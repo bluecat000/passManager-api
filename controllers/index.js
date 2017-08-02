@@ -11,5 +11,5 @@ var hello = async (ctx, next) => {
 
 module.exports = {
     'GET /': index,
-    'GET /hello': hello
+    'GET /hello/:name': hello
 }
